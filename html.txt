@@ -7,3 +7,7 @@
  site para criação de template/prototipo de tela
 
  mockflow.com
+
+background shorthand
+
+background: color, image, position, repeat;
