@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesclagem de celulas</title>
+    <style>
+        table {
+            width: 400px;
+            border-collapse: collapse;
+        }
+
+        tr,td, th {
+            padding: 10px;
+            border: 1px solid black;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mesclagem de celulas</h1>
+    <table>
+        <caption>Filmes favoritos</caption>
+        <thead>
+
+        </thead>
+        <tbody>
+            <thead>
+                <tr>
+                    <th scope="col">Grupos</th>
+                    <th scope="col">Nomes</th>
+                    <th scope="colgroup" colspan="3">Filmes</th>
+                </tr>
+            </thead>
+            <tr>
+                <th
+                rowspan="3" scope="rowgroup">Mulheres</th>
+                <td>Maria</td>
+                <td>Tchuck</td>
+                <td>Panico</td>
+                <td>Mascara</td>
+            </tr>
+            <tr>
+                <td>Joana</td>
+                <td>Barbie</td>
+                <td>Castelo ra tim bum</td>
+                <td>Princesa Sabrina</td>
+            </tr>
+            <tr>
+                <td>Ana</td>
+                <td>Disney</td>
+                <td>Hello kit</td>
+                <td>Susi</td>
+            </tr>
+            <tr>
+                <th scope="rowgroup" rowspan="3">Homens</th>
+                <td>Mané</td>
+                <td>Vingadores</td>
+                <td>Tor</td>
+                <td>Harry Potter</td>
+            </tr>
+                <tr>
+                    <td>João</td>
+                    <td>Huck</td>
+                    <td>Homem aranha</td>
+                    <td>Batman</td>
+                </tr>
+                <tr>
+                    <td>José</td>
+                    <td>Toy story</td>
+                     <td>Carros</td>
+                    <td>Coringa</td>            
+                </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row" colspan="4">total</th>
+                <td>100</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
