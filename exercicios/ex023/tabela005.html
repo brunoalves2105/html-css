@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>agrupando colunas com colgroup</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 50vw;
+        }
+        th, td {
+            border: 1px solid black;
+        }
+        .cinza {
+            background-color: grey;
+        }
+        .azul {
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>exercicio de tabela</h1>
+    <table>
+        <colgroup>
+        <col class="cinza">
+        <col class="azul">
+        <col class="cinza" span="2">
+        </colgroup>
+        <caption>cadastro</caption>
+        <tr>
+            <th>nome</th>
+            <th>idade</th>
+            <th>sexo</th>
+            <th>profissão</th>
+        </tr>
+        <tr>
+            <td>maria</td>
+            <td>25</td>
+            <td>f</td>
+            <td>medica</td>
+        </tr>
+        <tr>
+            <td>maria</td>
+            <td>25</td>
+            <td>f</td>
+            <td>medica</td>
+        </tr>
+        <tr>
+            <td>maria</td>
+            <td>25</td>
+            <td>f</td>
+            <td>medica</td>
+        </tr>
+        <tr>
+            <td>maria</td>
+            <td>25</td>
+            <td>f</td>
+            <td>medica</td>
+        </tr>
+        <tr>
+            <td>maria</td>
+            <td>25</td>
+            <td>f</td>
+            <td>medica</td>
+        </tr>
+        <tr>
+            <td>maria</td>
+            <td>25</td>
+            <td>f</td>
+            <td>medica</td>
+        </tr>
+    </table>
+</body>
+</html>
